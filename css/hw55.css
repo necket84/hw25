@@ -39,34 +39,9 @@
     position: absolute;
     left: 10px;
     top: 1px;
-    animation: circle 1s linear  infinite;
-}
-@keyframes circle {
-0%{
-    transform: rotate(0deg);
-}
-100%{
-    transform: rotate(360deg);
 }
 
-}
-.like{
-    background: url(../img/ico-favorite.svg) ;
-    background-size:contain!important;
-    background-repeat:no-repeat!important;
-    width: 30px;
-    height: 30px;
-    display: table;
-    cursor: pointer;
-    margin: 20px;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-}
-.like:hover {
-    background: url(../img/heart.avif);
 
-}
 /* .botom-info {
     background:#949596;
 } */
@@ -79,7 +54,7 @@ img {
 .top {
     border: 1px solid rgb(205, 102, 119);
     background: rgb(205, 102, 119);
-    color: rgb(230, 177, 191);
+    color: rgb(181, 177, 230);
     width: 50px;
     height: 50px;
     line-height: 50px;
